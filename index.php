@@ -66,11 +66,11 @@
 		}
 		
 		// validate phone
-		if (isset($phone) && preg_match("/^[0-9\.\-\(\)\+]+$/", $phone) == 0) {
+		if (isset($phone) && (!empty($phone)) && preg_match("/^[0-9\.\-\(\)\+ ]+$/", $phone) == 0) {
 			catchErr("Invalid phone number");
 		}
 		
-		if (isset($phone) && ((strlen($phone) < 7) || (strlen($phone) > 20))) {
+		if (isset($phone) && (!empty($phone)) && ((strlen($phone) < 7) || (strlen($phone) > 20))) {
 			catchErr("Phone number minimum 7 and maximum 20 characters");
 		}
 		
@@ -87,17 +87,19 @@
 		if (sizeof($ERRORS) == 0) {
 			// send email
 			$from = $email;
-			$to = "pcourtot@trustworthyinternet.org";
-			$headers = "From:" . $from;
+			// $to = "pcourtot@trustworthyinternet.org";
+			$to = "kshaw@qualys.com";
+			$headers = "From: webmaster@trustworthyinternet.org\n\rReply-To: " . $from;
 			$subject = "TIM Signup - $fullname";
 			$message = "
 Full Name: $fullname
 Company: $company
 Email Address: $email
 Title: $title
-Participation Category: $participationcategory
 Phone: $phone
-Purpose for joining TIM: $purpose
+Participation Category: $participationcategory
+Purpose for joining TIM:
+$purpose
 ";
 			mail($to,$subject,$message,$headers);
 			
