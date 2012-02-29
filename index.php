@@ -172,6 +172,8 @@ Purpose for joining TIM: $purpose
 					<br />
 					<p>TIM’s mission is to resolve major lingering security issues on the Internet, such as SSL governance and the spread of botnets and malware, by ensuring security is built into the very fabric of private and public clouds, rather than being an afterthought. </p>
 					<p>The approach to solving these critical issues includes both technological and societal aspects. Drawing on individual talent from large corporations, cloud providers and industry groups as well as resources and technical assistance from technology leaders and the venture capital community, TIM will fund and foster collaborative innovation through working groups between these stakeholders. Together, our members will identify the hard issues to be solved and create new solutions to address them.</p>
+					<br />
+					<p><a href="/docs/TIM_PressRelease.pdf" target="_blank">Press Release</a></p>
 				</div>
 			</div>
 			<div class="join">
