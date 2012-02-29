@@ -87,9 +87,9 @@
 		if (sizeof($ERRORS) == 0) {
 			// send email
 			$from = $email;
-			// $to = "pcourtot@trustworthyinternet.org";
-			$to = "kshaw@qualys.com";
-			$headers = "From: webmaster@trustworthyinternet.org\n\rReply-To: " . $from;
+			$to = "pcourtot@trustworthyinternet.org";
+			$headers = "From: webmaster@trustworthyinternet.org\r\n";
+			$headers .= "Reply-To: " . $from . "\r\n";
 			$subject = "TIM Signup - $fullname";
 			$message = "
 Full Name: $fullname
