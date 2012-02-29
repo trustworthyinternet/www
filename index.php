@@ -1,7 +1,7 @@
 <?php
 		
-	require_once("/lib/config.php");
-	require_once("/lib/functions.php");
+	require_once("lib/config.php");
+	require_once("lib/functions.php");
 		
 	// initialize form values
 	$fullname = "";
@@ -53,7 +53,7 @@
 			$from = $email;
 			$to = "pcourtot@trustworthyinternet.org";
 			$headers = "From:" . $from;
-			$subject = "TIM Signup - $lastname";
+			$subject = "TIM Signup - $fullname";
 			$message = "
 Full Name: $fullname
 Company: $company
@@ -191,7 +191,7 @@ Purpose for joining TIM: $purpose
 						displayErr();
 						displayMsg();
 					?>
-					<form name="form" action="index.php#join" method="post">
+					<form name="form" action="#join" method="post">
 						<div class="clear">
 							<div class="column">
 								<label for="firstname" class="honey">First Name</label>

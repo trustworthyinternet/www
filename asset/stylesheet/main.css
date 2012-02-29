@@ -129,7 +129,7 @@ div.logo {
 	width: 305px;
 	height: 74px;
 	background-position: -25px -25px;
-	background-image: url('/image/sprite.png');
+	background-image: url('/asset/image/sprite.png');
 	overflow: hidden;
 	position: absolute;
 	top: 26px;
@@ -169,7 +169,7 @@ div.banner {
 	width: 1024px;
 	height: 374px;
 	background-position: -25px -151px;
-	background-image: url('/image/sprite.png');
+	background-image: url('/asset/image/sprite.png');
 	overflow: hidden;
 	color: #fff;
 	position: relative;
@@ -229,7 +229,7 @@ div.logo2 {
 	width: 237px;
 	height: 57px;
 	background-position: -550px -25px;
-	background-image: url('/image/sprite.png');
+	background-image: url('/asset/image/sprite.png');
 	overflow: hidden;
 	position: absolute;
 	top: 18px;
@@ -289,7 +289,7 @@ div.icon-lightbulb {
 	width: 44px;
 	height: 40px;
 	background-position: -475px -25px;
-	background-image: url('/image/sprite.png');
+	background-image: url('/asset/image/sprite.png');
 	overflow: hidden;
 	position: absolute;
 	top: 11px;
@@ -299,7 +299,7 @@ div.icon-bubbles {
 	width: 58px;
 	height: 43px;
 	background-position: -400px -25px;
-	background-image: url('/image/sprite.png');
+	background-image: url('/asset/image/sprite.png');
 	overflow: hidden;
 	position: absolute;
 	top: 10px;
@@ -313,7 +313,7 @@ div.icon-stars {
 	width: 33px;
 	height: 37px;
 	background-position: -350px -25px;
-	background-image: url('/image/sprite.png');
+	background-image: url('/asset/image/sprite.png');
 	overflow: hidden;
 	position: absolute;
 	top: 15px;
@@ -364,7 +364,7 @@ div.icon-lightbulb2 {
 	width: 156px;
 	height: 156px;
 	background-position: -25px -555px;
-	background-image: url('/image/sprite.png');
+	background-image: url('/asset/image/sprite.png');
 	overflow: hidden;
 	margin: 0 auto;
 }
