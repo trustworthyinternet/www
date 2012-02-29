@@ -77,7 +77,7 @@ function format($sStr) {
 function isEmailValid($sEmail) {
 	$return = TRUE;
 	
-    $regex_email = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/";
+    $regex_email = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,7})$/";
 	
 	if (!preg_match($regex_email, $sEmail)) {
 		$return = FALSE;

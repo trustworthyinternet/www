@@ -32,9 +32,17 @@
 			catchErr("Full name required");
 		}
 		
+		if (isset($fullname) && (strlen($fullname) > 50)) {
+			catchErr("Full name maximum 50 characters");
+		}
+		
 		// validate email
 		if (isset($email) && !isEmailValid($email)) {
-			catchErr("Email address required");
+			catchErr("Email address required. Invalid email.");
+		}
+		
+		if (isset($email) && (strlen($email) > 100)) {
+			catchErr("Email address maximum 100 characters");
 		}
 		
 		// validate participation category
@@ -42,9 +50,37 @@
 			catchErr("Participation category required");
 		}
 		
+		$categories = array("Experts","Innovators","Stakeholders","Corporations","Academic Institutions","Non-profit Organizations","Angel Investors and VCs");
+		if (isset($participationcategory) && !in_array($participationcategory, $categories)) {
+			catchErr("Invalid participation category");
+		}
+		
+		// validate company
+		if (isset($company) && (strlen($company) > 50)) {
+			catchErr("Company maximum 50 characters");
+		}
+		
+		// validate title
+		if (isset($title) && (strlen($title) > 50)) {
+			catchErr("Title maximum 50 characters");
+		}
+		
+		// validate phone
+		if (isset($phone) && preg_match("/^[0-9\.\-\(\)\+]+$/", $phone) == 0) {
+			catchErr("Invalid phone number");
+		}
+		
+		if (isset($phone) && ((strlen($phone) < 7) || (strlen($phone) > 20))) {
+			catchErr("Phone number minimum 7 and maximum 20 characters");
+		}
+		
 		// validate purpose
 		if (isset($purpose) && empty($purpose)) {
 			catchErr("Purpose for joining TIM required");
+		}
+		
+		if (isset($purpose) && (strlen($purpose) > 1000)) {
+			catchErr("Purpose maximum 1000 characters");
 		}
 		
 		// if no errors
@@ -197,9 +233,9 @@ Purpose for joining TIM: $purpose
 								<label for="firstname" class="honey">First Name</label>
 								<input type="text" name="firstname" placeholder="-" value="<?php echo $firstname; ?>" class="honey">
 								<label for="fullname">Full Name</label><br />
-								<input type="text" name="fullname" placeholder="-" value="<?php echo $fullname; ?>"><br />
+								<input type="text" name="fullname" placeholder="-" value="<?php echo $fullname; ?>" maxlength="50"><br />
 								<label for="email">Email</label><br />
-								<input type="text" name="email" placeholder="-" <?php echo $email; ?>><br />
+								<input type="text" name="email" placeholder="-" value="<?php echo $email; ?>" maxlength="100"><br />
 								<label for="participationcategory">Participation category in TIM</label><br />
 								<select name="participationcategory" class="last">
 									<option value="-">-</option>
@@ -214,11 +250,11 @@ Purpose for joining TIM: $purpose
 							</div>
 							<div class="column">
 								<label for="company">Company Name</label><br />
-								<input type="text" name="company" value="<?php echo $company; ?>"><br />
+								<input type="text" name="company" value="<?php echo $company; ?>" maxlength="50"><br />
 								<label for="title">Title</label><br />
-								<input type="text" name="title" value="<?php echo $title; ?>"><br />
+								<input type="text" name="title" value="<?php echo $title; ?>" maxlength="50"><br />
 								<label for="phone">Phone number <span class="example">(650-123-4567)</span></label><br />
-								<input type="text" name="phone" class="last" value="<?php echo $title; ?>">
+								<input type="text" name="phone" class="last" value="<?php echo $phone; ?>" maxlength="20">
 							</div>
 						</div>
 						<label for="purpose">Purpose for joining TIM</label><br />
