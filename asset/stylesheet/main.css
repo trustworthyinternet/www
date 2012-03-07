@@ -113,6 +113,10 @@ h6 {
 ol {
 	list-style:decimal;	
 }
+ul {
+	list-style:disc;
+	margin-left: 20px;
+}
 /*
 * Header styles
 */
@@ -250,6 +254,10 @@ div.footer a {
 /*
 * Content styles
 */
+a {
+	color: #005CCF;
+	text-decoration: none;
+}
 div.fundamentals {
 	padding-top: 48px;	
 }
@@ -334,11 +342,14 @@ div.section1 li {
 	margin-bottom: 15px;
 }
 div.about,
-div.join {
+div.join,
+div.media {
 	padding: 38px 40px 164px 44px;
+	min-height: 300px;
 }
 div.about div.side-box1,
-div.join div.side-box1 {
+div.join div.side-box1,
+div.media div.side-box1  {
 	width: 278px;
 	float: right;
 }
@@ -430,4 +441,20 @@ div.press {
 	position: absolute;
 	top: 92px;
 	right: 89px;
+}
+div.media ul {
+	margin: 0;
+	font-size: 15px;
+	list-style:none;
+}
+div.media li {
+	margin-bottom: 20px;	
+}
+span.source {
+	color: #666;
+	font-weight: bold;
+	font-size:13px;
+}
+span.date {
+	font-size:13px;
 }

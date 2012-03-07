@@ -124,6 +124,8 @@ $purpose
 <meta charset="utf-8" />
 <title>Trustworthy Internet Movement</title>
 <link rel="stylesheet" type="text/css" href="asset/stylesheet/main.css" />
+<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 <!--[if IE]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -155,6 +157,7 @@ $purpose
 				<a href="#fundamentals" class="current">Fundamentals</a>
 				<a href="#about">About TIM</a>
 				<a href="#join">Join TIM</a>
+				<a href="#media">Media</a>
 			</div>
 		</div>
 		<div class="panes">
@@ -263,6 +266,36 @@ $purpose
 						<textarea name="purpose" cols="" rows="" placeholder="-"><?php echo $purpose; ?></textarea><br />
 						<input type="submit" class="button1" value="Submit">
 					</form>
+				</div>
+			</div>
+			<div class="media">
+				<div class="side-box1">
+					<h2>Founding Principles</h2>
+					<p>Founded by <strong><a href="http://www.linkedin.com/pub/philippe-courtot/1/104/703" target="_blank">Philippe Courtot</a></strong>, chairman and CEO of Qualys, at the request of many large corporations and industry leaders who share the  view that with the emergence of cloud technologies, we now have the unique opportunity to build security into the fabric and not as an afterthought. Philippe has personally pledged half a million dollars to support TIM. </p>
+					<div class="icon-lightbulb2">
+					</div>
+				</div>
+				<div class="main">
+					<h2>Media Coverage</h2>
+					<br /><br />
+					<ul>
+					<li><a href="http://www.networkworld.com/news/2012/030512-courtot-internet-security-256945.html" target="_blank">A $500,000 Bet on Internet Security</a><br />
+					<span class="source">Network World</span> <span class="date">- March 5, 2012</span></li>
+					<li><a href="http://www.youtube.com/watch?v=jNQ3io3lm5E" target="_blank">Interview with Philippe Courtot, Chairman and CEO, Qualys (video)</a><br />
+					<span class="source">SC Magazine</span> <span class="date">- March 5, 2012</span></li>
+					<li><a href="http://venturebeat.com/2012/03/01/trustworthy-internet-movement/" target="_blank">Qualys CEO Creates Security Non-Profit To Fix the Internet</a><br />
+					<span class="source">VentureBeat</span> <span class="date">- March 1, 2012</span></li>
+					<li><a href="http://www.esecurityplanet.com/network-security/internet-trustworthy-rsa-2012-rsac-qualys-courtot.html" target="_blank">Can the Internet Be Made Trustworthy?</a><br />
+					<span class="source">eSecurity Planet</span> <span class="date">- March 1, 2012</span></li>
+					<li><a href="http://www.darkreading.com/advanced-threats/167901091/security/vulnerabilities/232601902/qualys-courtot-backs-trustworthy-internet-movement.html" target="_blank">Qualys’ Courtot Backs Trustworthy Internet Movement</a><br />
+					<span class="source">Dark Reading</span> <span class="date">- March 1, 2012</span></li>
+					<li><a href="http://www.scmagazineuk.com/rsa-conference-2012-trustworthy-internet-movement-launched-to-spur-collaboration/article/230057/" target="_blank">RSA Conference 2012: Trustworthy Internet Movement launched to spur collaboration</a><br />
+					<span class="source">SC Magazine UK</span> <span class="date">- March 1, 2012</span></li>
+					<li><a href="http://www.computing.co.uk/ctg/news/2156322/rsa-2012-trustworthy-internet-movement-aims-boost-security-privacy-reliability-online" target="_blank">RSA 2012: Trustworthy Internet Movement aims to boost security, privacy and reliability online</a><br />
+					<span class="source">Computing.co.uk</span> <span class="date">- March 1, 2012</span></li>
+					<li><a href="http://www.youtube.com/watch?v=88zKZcHO6Oc" target="_blank">Trustworthy Internet Movement Initiative (video)</a><br />
+					<span class="source">HelpNetSecurity</span> <span class="date">- February 29, 2012</span></li>
+					</ul>
 				</div>
 			</div>
 		</div>
