@@ -199,9 +199,22 @@ $purpose
 			</div> 
 			<div class="about">
 				<div class="side-box1">
+					<h2>SC Magazine Interview</h2>
+					<br />
+						<p>
+						<a href="http://www.youtube.com/watch?v=jNQ3io3lm5E" target="_blank" class="video">Interview with Philippe Courtot, Chairman and CEO, Qualys (video)</a>
+						</p>
+						<br /><br />
 					<h2>Founding Principles</h2>
+					<div class="container">
 					<p>Founded by <strong><a href="http://www.linkedin.com/pub/philippe-courtot/1/104/703" target="_blank">Philippe Courtot</a></strong>, chairman and CEO of Qualys, at the request of many large corporations and industry leaders who share the  view that with the emergence of cloud technologies, we now have the unique opportunity to build security into the fabric and not as an afterthought. Philippe has personally pledged half a million dollars to support TIM. </p>
-					<div class="icon-lightbulb2">
+					</div>
+					<br />
+					<h2>Find Us Online</h2>
+					<div class="container social-media">
+						<a class="twitter" href="https://twitter.com/trustinternet" target="_blank">Twitter</a>
+						<a class="facebook" href="https://facebook.com/trustinternet" target="_blank">Facebook</a>
+						<a class="google" href="https://plus.google.com/112714522764841811799/posts" target="_blank">Google</a>
 					</div>
 				</div>
 				<div class="main">
@@ -219,9 +232,22 @@ $purpose
 			</div>
 			<div class="join">
 				<div class="side-box1">
+					<h2>SC Magazine Interview</h2>
+					<br />
+						<p>
+						<a href="http://www.youtube.com/watch?v=jNQ3io3lm5E" target="_blank" class="video">Interview with Philippe Courtot, Chairman and CEO, Qualys (video)</a>
+						</p>
+						<br /><br />
 					<h2>Founding Principles</h2>
+					<div class="container">
 					<p>Founded by <strong><a href="http://www.linkedin.com/pub/philippe-courtot/1/104/703" target="_blank">Philippe Courtot</a></strong>, chairman and CEO of Qualys, at the request of many large corporations and industry leaders who share the  view that with the emergence of cloud technologies, we now have the unique opportunity to build security into the fabric and not as an afterthought. Philippe has personally pledged half a million dollars to support TIM. </p>
-					<div class="icon-lightbulb2">
+					</div>
+					<br />
+					<h2>Find Us Online</h2>
+					<div class="container social-media">
+						<a class="twitter" href="https://twitter.com/trustinternet" target="_blank">Twitter</a>
+						<a class="facebook" href="https://facebook.com/trustinternet" target="_blank">Facebook</a>
+						<a class="google" href="https://plus.google.com/112714522764841811799/posts" target="_blank">Google</a>
 					</div>
 				</div>
 				<div class="main">
@@ -270,9 +296,22 @@ $purpose
 			</div>
 			<div class="media">
 				<div class="side-box1">
+					<h2>SC Magazine Interview</h2>
+					<br />
+						<p>
+						<a href="http://www.youtube.com/watch?v=jNQ3io3lm5E" target="_blank" class="video">Interview with Philippe Courtot, Chairman and CEO, Qualys (video)</a>
+						</p>
+						<br /><br />
 					<h2>Founding Principles</h2>
+					<div class="container">
 					<p>Founded by <strong><a href="http://www.linkedin.com/pub/philippe-courtot/1/104/703" target="_blank">Philippe Courtot</a></strong>, chairman and CEO of Qualys, at the request of many large corporations and industry leaders who share the  view that with the emergence of cloud technologies, we now have the unique opportunity to build security into the fabric and not as an afterthought. Philippe has personally pledged half a million dollars to support TIM. </p>
-					<div class="icon-lightbulb2">
+					</div>
+					<br />
+					<h2>Find Us Online</h2>
+					<div class="container social-media">
+						<a class="twitter" href="https://twitter.com/trustinternet" target="_blank">Twitter</a>
+						<a class="facebook" href="https://facebook.com/trustinternet" target="_blank">Facebook</a>
+						<a class="google" href="https://plus.google.com/112714522764841811799/posts" target="_blank">Google</a>
 					</div>
 				</div>
 				<div class="main">

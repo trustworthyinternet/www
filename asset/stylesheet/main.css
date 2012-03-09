@@ -219,13 +219,12 @@ div.tabs a.current {
 * Footer styles
 */
 div.divider {
-	height: 28px;
+	height: 6px;
 	background-color: #ccc;
 }
 div.footer {
 	background-color: #005ccf;
 	height: 177px;	
-	border-bottom: 1px solid #ff0000;
 	margin-bottom:151px;
 	position: relative;
 }
@@ -362,7 +361,6 @@ div.side-box1 h2 {
 div.side-box1 p {
 	font-size: 13px;
 	line-height: 1.3;
-	padding: 16px;	
 }
 div.side-box1 a:link,
 div.side-box1 a:active,
@@ -457,4 +455,50 @@ span.source {
 }
 span.date {
 	font-size:13px;
+}
+a.video {
+	display:block;
+	text-indent:-9999px;
+	width: 247px;
+	height: 138px;
+	background-position: 0 0;
+	background-image: url('/asset/image/sprite.jpg');
+	overflow: hidden;
+	margin: 0 auto;
+}
+div.container {
+	padding: 16px;
+}
+div.social-media {
+	text-align:center;
+}
+a.google {
+	display:inline-block;
+	text-indent:-9999px;
+	width: 32px;
+	height: 32px;
+	background-position: -200px -550px;
+	background-image: url('/asset/image/sprite.png');
+	overflow: hidden;
+	margin: 0 5px;
+}
+a.facebook {
+	display:inline-block;
+	text-indent:-9999px;
+	width: 32px;
+	height: 32px;
+	background-position: -250px -550px;
+	background-image: url('/asset/image/sprite.png');
+	overflow: hidden;
+	margin: 0 5px;
+}
+a.twitter {
+	display:inline-block;
+	text-indent:-9999px;
+	width: 32px;
+	height: 32px;
+	background-position: -300px -550px;
+	background-image: url('/asset/image/sprite.png');
+	overflow: hidden;
+	margin: 0 5px;
 }
