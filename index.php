@@ -318,6 +318,8 @@ $purpose
 					<h2>Media Coverage</h2>
 					<br /><br />
 					<ul>
+					<li><a href="http://www.pcworld.com/businesscenter/article/251986/tim_brings_experts_and_industry_together_in_search_of_more_secure_internet.html#tk.hp_new" target="_blank">TIM Brings Experts and Industry Together in Search of More Secure Internet</a><br />
+					<span class="source">PCWorld</span> <span class="date">- March 16, 2012</span></li>
 					<li><a href="http://www.businessinsider.com/this-ceo-just-spent-a-half-million-of-his-own-money-to-make-the-internet-safer-2012-3" target="_blank">This CEO Just Spent A Half Million Of His Own Money To Make The Internet Safer</a><br />
 					<span class="source">Business Insider</span> <span class="date">- March 7, 2012</span></li>
 					<li><a href="http://www.networkworld.com/news/2012/030512-courtot-internet-security-256945.html" target="_blank">A $500,000 Bet on Internet Security</a><br />
